@@ -4,7 +4,7 @@ require('dotenv').config()
 const app = express()
 
 app.get('/', (req, resp)=>{
-    return resp.send({"name":"Reetesh", "age":30})
+    return resp.send({"name":"Reetesh Yadav", "age":30})
 })
 
 app.listen(process.env.PORT, ()=>{
